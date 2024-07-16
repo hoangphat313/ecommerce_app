@@ -112,8 +112,11 @@ class OrderDetail extends StatelessWidget {
                 children: order.items
                     .map((item) => ListTile(
                           leading: item.image != null
-                              ? Image.network(item.image!,
-                                  width: 50, height: 50, fit: BoxFit.cover)
+                              ? SizedBox(
+                                  width: 50,
+                                  height: 50,
+                                  child: Image.network(item.image!,
+                                      fit: BoxFit.cover))
                               : null,
                           title: Text(item.title),
                           subtitle: Text('Số lượng: ${item.quantity}'),

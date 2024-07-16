@@ -45,9 +45,7 @@ class AllProductsController extends GetxController {
           }
         });
         break;
-      case 'Mới nhất':
-        products.sort((a, b) => a.date!.compareTo(b.date!));
-        break;
+
       default:
         //default: "Name"
         products.sort((a, b) => a.title.compareTo(b.title));

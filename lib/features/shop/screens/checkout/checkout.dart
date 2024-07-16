@@ -43,7 +43,7 @@ class CheckoutScreen extends StatelessWidget {
               const TCartItems(showAddRemoveButton: false),
               const SizedBox(height: TSizes.spaceBtwSections),
               //Coupon Textfield
-              const TCouponCode(),
+              //const TCouponCode(),
               const SizedBox(height: TSizes.spaceBtwSections),
               // Billing section
               TRoundedContainer(

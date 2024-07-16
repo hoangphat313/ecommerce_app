@@ -7,6 +7,7 @@ import 'package:e_commerce/data/repositories/authentication/authentication_repos
 import 'package:e_commerce/features/personalization/controllers/theme_controller.dart';
 import 'package:e_commerce/features/personalization/controllers/user_controller.dart';
 import 'package:e_commerce/features/personalization/screens/address/address.dart';
+import 'package:e_commerce/features/personalization/screens/instruction/instruction_screen.dart';
 import 'package:e_commerce/features/personalization/screens/policy/policy_screen.dart';
 
 import 'package:e_commerce/features/personalization/screens/profile/profile.dart';
@@ -83,6 +84,12 @@ class SettingsScreen extends StatelessWidget {
                       icon: Iconsax.discount_shape,
                       title: 'Mã giảm giá',
                       subtitle: 'Xem danh sách mã giảm giá'),
+                  TSettingMenuTile(
+                    icon: Iconsax.video,
+                    title: 'Hướng dẫn sử dụng',
+                    subtitle: 'Xem video hướng dẫn sử dụng ứng dụng',
+                    onTap: () => Get.to(() => const InstructionScreen()),
+                  ),
                   TSettingMenuTile(
                     icon: Iconsax.personalcard,
                     title: 'Xóa tài khoản',

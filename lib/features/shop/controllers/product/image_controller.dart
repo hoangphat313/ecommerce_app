@@ -52,7 +52,7 @@ class ImageController extends GetxController {
                       width: 150,
                       child: OutlinedButton(
                           onPressed: () => Get.back(),
-                          child: const Text('Close')),
+                          child: const Text('Đóng')),
                     ),
                   )
                 ],

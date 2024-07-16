@@ -23,7 +23,7 @@ class UserReviewCard extends StatelessWidget {
                 const CircleAvatar(
                     backgroundImage: AssetImage(TImages.userProfileImage1)),
                 const SizedBox(width: TSizes.spaceBtwItems),
-                Text('John Nguyen',
+                Text('Trang Nguyen',
                     style: Theme.of(context).textTheme.titleLarge),
               ],
             ),
@@ -41,11 +41,11 @@ class UserReviewCard extends StatelessWidget {
         ),
         const SizedBox(height: TSizes.spaceBtwItems),
         const ReadMoreText(
-          'The user interface os the app is quite intuitive. I was able to navigate and make purchase seamlessly. Great job! ',
+          'Giao diện người dùng của ứng dụng rất trực quan. Tôi có thể dễ dàng điều hướng và mua hàng một cách mượt mà. Công việc tuyệt vời! ',
           trimLines: 2,
           trimMode: TrimMode.Line,
-          trimCollapsedText: 'Show more',
-          trimExpandedText: 'Less',
+          trimCollapsedText: 'Xem thêm',
+          trimExpandedText: 'Ẩn bớt',
           moreStyle: TextStyle(
               fontSize: 14,
               fontWeight: FontWeight.bold,
@@ -75,11 +75,11 @@ class UserReviewCard extends StatelessWidget {
                 ),
                 const SizedBox(height: TSizes.spaceBtwItems),
                 const ReadMoreText(
-                  'The user interface os the app is quite intuitive. I was able to navigate and make purchase seamlessly. Great job! ',
+                  'Ứng dụng này rất dễ sử dụng và thân thiện với người dùng. Tôi đã có trải nghiệm mua hàng rất thuận lợi và không gặp bất kỳ vấn đề nào. Cảm ơn các bạn đã cung cấp một sản phẩm tuyệt vời! ',
                   trimLines: 2,
                   trimMode: TrimMode.Line,
-                  trimCollapsedText: 'Show more',
-                  trimExpandedText: 'Less',
+                  trimCollapsedText: 'Xem thêm',
+                  trimExpandedText: 'Ẩn bớt',
                   moreStyle: TextStyle(
                       fontSize: 14,
                       fontWeight: FontWeight.bold,

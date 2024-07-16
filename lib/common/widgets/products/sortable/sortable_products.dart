@@ -31,7 +31,6 @@ class TSortableProducts extends StatelessWidget {
             'Giá cao hơn',
             'Giá thấp hơn',
             'Khuyến mãi',
-            'Mới nhất',
           ]
               .map((option) =>
                   DropdownMenuItem(value: option, child: Text(option)))

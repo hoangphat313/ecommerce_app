@@ -20,19 +20,18 @@ class NavigationMenu extends StatelessWidget {
     return Scaffold(
       bottomNavigationBar: Obx(() => CurvedNavigationBar(
                 items: const [
-                  Icon(Iconsax.home, size: 25),
-                  Icon(Iconsax.search_favorite, size: 25),
-                  Icon(Iconsax.shop, size: 25),
-                  Icon(Iconsax.heart, size: 25),
-                  Icon(Iconsax.user, size: 25)
+                  Icon(Iconsax.home, size: 25, color: Colors.white),
+                  Icon(Iconsax.search_favorite, size: 25, color: Colors.white),
+                  Icon(Iconsax.shop, size: 25, color: Colors.white),
+                  Icon(Iconsax.heart, size: 25, color: Colors.white),
+                  Icon(Iconsax.user, size: 25, color: Colors.white)
                 ],
                 index: controller.selectedIndex.value,
                 height: 45,
                 color: dark ? TColors.black : TColors.primary.withOpacity(0.8),
                 backgroundColor: dark ? TColors.black : TColors.white,
-                buttonBackgroundColor: dark
-                    ? TColors.white.withOpacity(0.1)
-                    : TColors.black.withOpacity(0.1),
+                buttonBackgroundColor:
+                    dark ? TColors.white.withOpacity(0.1) : TColors.primary,
                 onTap: (index) => controller.selectedIndex.value = index,
               )
           // () => NavigationBar(

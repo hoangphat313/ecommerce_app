@@ -13,7 +13,7 @@ class ProductReviewsScreen extends StatelessWidget {
     return Scaffold(
       // App bar
       appBar: const TAppBar(
-        title: Text('Reviews & Ratings'),
+        title: Text('Đánh Giá và Xếp Hạng'),
         showBackArrow: true,
       ),
       //body
@@ -24,7 +24,7 @@ class ProductReviewsScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                  'Ratings and reviews are verified and are from  people who use the same type of device that you use'),
+                  'Xếp hạng và đánh giá đã được xác minh và từ những người dùng cùng loại thiết bị mà bạn đang sử dụng.'),
               const SizedBox(height: TSizes.spaceBtwItems),
               //Overall product rating
               const TOverallProductRating(),

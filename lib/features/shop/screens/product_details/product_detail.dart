@@ -57,7 +57,7 @@ class ProductDetailScreen extends StatelessWidget {
                     trimLines: 2,
                     trimMode: TrimMode.Line,
                     trimCollapsedText: 'Xem thêm',
-                    trimExpandedText: 'Ẩn',
+                    trimExpandedText: 'Ẩn bớt',
                     moreStyle: const TextStyle(
                         fontSize: 14, fontWeight: FontWeight.w800),
                     lessStyle: const TextStyle(

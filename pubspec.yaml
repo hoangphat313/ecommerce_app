@@ -25,7 +25,7 @@ dependencies:
   flutter_native_splash: ^2.3.2
   smooth_page_indicator: ^1.1.0
   curved_navigation_bar: ^1.0.5
-
+  youtube_player_flutter: ^8.0.0
   #Icons
   iconsax: ^0.0.8
   cupertino_icons: ^1.0.8

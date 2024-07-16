@@ -41,9 +41,8 @@ class TTexts {
   static const String resendEmailIn = "Resend email in";
 
   // -- Authentication Headings
-  static const String loginTitle = "Xin Chào";
-  static const String loginSubTitle =
-      "Khám phá những lựa chọn vô hạn và sự tiện lợi vô cùng";
+  static const String loginTitle = "Chào mừng bạn đến với Fashion Fusion";
+  static const String loginSubTitle = "Vui lòng đăng nhập để mua hàng";
   static const String signupTitle = "Bắt đầu tạo tài khoản";
   static const String forgetPasswordTitle = "Quên mật khẩu";
   static const String forgetPasswordSubTitle =
