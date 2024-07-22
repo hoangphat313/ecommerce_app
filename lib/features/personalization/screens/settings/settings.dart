@@ -9,9 +9,7 @@ import 'package:e_commerce/features/personalization/controllers/user_controller.
 import 'package:e_commerce/features/personalization/screens/address/address.dart';
 import 'package:e_commerce/features/personalization/screens/instruction/instruction_screen.dart';
 import 'package:e_commerce/features/personalization/screens/policy/policy_screen.dart';
-
 import 'package:e_commerce/features/personalization/screens/profile/profile.dart';
-import 'package:e_commerce/features/personalization/screens/upload/upload_general_screen.dart';
 import 'package:e_commerce/features/shop/screens/cart/cart.dart';
 import 'package:e_commerce/features/shop/screens/order/order.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
@@ -90,13 +88,13 @@ class SettingsScreen extends StatelessWidget {
                     subtitle: 'Xem video hướng dẫn sử dụng ứng dụng',
                     onTap: () => Get.to(() => const InstructionScreen()),
                   ),
-                  TSettingMenuTile(
-                    icon: Iconsax.personalcard,
-                    title: 'Xóa tài khoản',
-                    subtitle: 'Xóa vĩnh viễn tài khoản',
-                    onTap: () =>
-                        userController.deleteAccountWarningPopup(context),
-                  ),
+                  // TSettingMenuTile(
+                  //   icon: Iconsax.personalcard,
+                  //   title: 'Xóa tài khoản',
+                  //   subtitle: 'Xóa vĩnh viễn tài khoản',
+                  //   onTap: () =>
+                  //       userController.deleteAccountWarningPopup(context),
+                  // ),
 
                   const SizedBox(height: TSizes.spaceBtwSections / 2),
                   // App setting

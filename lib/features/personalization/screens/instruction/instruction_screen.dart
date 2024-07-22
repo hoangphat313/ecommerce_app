@@ -14,7 +14,7 @@ class InstructionScreen extends StatefulWidget {
 }
 
 class _InstructionScreenState extends State<InstructionScreen> {
-  String _videoId = 'E_s6E2i29uw';
+  String _videoId = 'Esnbf5FF0xI';
   late YoutubePlayerController _controller;
   bool _isLoading = true;
 
@@ -40,7 +40,7 @@ class _InstructionScreenState extends State<InstructionScreen> {
 
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
-      print('API Response: $data'); // In ra phản hồi API để kiểm tra
+      print('API Response: $data');
 
       if (data['items'] != null && data['items'].isNotEmpty) {
         setState(() {

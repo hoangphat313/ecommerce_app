@@ -111,12 +111,13 @@ class ProfileScreen extends StatelessWidget {
                         message: 'Copy thành công số điện thoại');
                   }),
 
-              // const Divider(),
-              // const SizedBox(height: TSizes.spaceBtwItems),
-              // //button
+              const Divider(),
+              const SizedBox(height: TSizes.spaceBtwItems),
+              //button
               // Center(
               //   child: TextButton(
-              //       onPressed: () => controller.deleteAccountWarningPopup(),
+              //       onPressed: () =>
+              //           controller.deleteAccountWarningPopup(context),
               //       child: const Text(
               //         'Xóa tài khoản',
               //         style: TextStyle(
