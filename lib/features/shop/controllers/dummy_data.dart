@@ -36,196 +36,61 @@ class TDummyData {
   //list of all product
   static final List<ProductModel> products = [
     ProductModel(
-      id: '2',
-      title: 'Quần Ngắn Thể Thao Nam Nike Court Dri-Fit Advantage 7In - Đen',
+      id: '17',
+      title: 'ÁO PHÔNG DÁNG BOXY FIT',
       stock: 46,
-      price: 700000,
-      thumbnail: TImages.shortNam,
+      price: 250000,
+      thumbnail: TImages.teeZara,
       isFeatured: true,
-      description:
-          """Giữ vững phong độ trong mọi cuộc chơi cùng Quần Ngắn Thể Thao Nam Nike Court Dri-Fit Advantage 7In. Thiết kế co giãn và thông thoáng tối ưu mang đến cảm giác mát mẻ và thoải mái ngay cả khi bạn đang hăng say thi đấu hay tập luyện gian nan. Chiếc quần trang bị thêm túi tiện lợi, có thể đựng đồ cá nhân cũng như những quả bóng tennis, cho cuộc chơi trọn vẹn chẳng ngại gián đoạn. """,
+      description: """Áo phông dáng boxy fit. Cổ tròn, cộc tay. Kiểu bạc màu.
+
+Sản phẩm này có vẻ ngoài độc đáo nhờ vào quá trình giặt đặc biệt. Do đó, màu sắc thực tế của sản phẩm có thể có khác biệt nhỏ so với hình ảnh. """,
       brand: BrandModel(
-        id: '1',
-        name: 'Nike',
-        image: TImages.nikeLogo,
+        id: '5',
+        name: 'Zara',
+        image: TImages.zaraLogo,
         productsCount: 46,
         isFeatured: true,
       ),
-      images: [TImages.shortNam1, TImages.shortNam2, TImages.shortNam3],
-      salePrice: 680000,
-      sku: 'ABR425734',
-      categoryId: '7',
+      images: [
+        TImages.teeZara_1,
+        TImages.teeZara_2,
+      ],
+      salePrice: 235000,
+      sku: 'ABR4257334',
+      categoryId: '12',
       productType: 'ProductType.single',
     ),
-//product 3
-//     ProductModel(
-//       id: '3',
-//       title: 'Áo Polo Nam Nike Sportwear - Xám',
-//       stock: 46,
-//       price: 700000,
-//       thumbnail: TImages.poloThumbnail,
-//       isFeatured: true,
-//       description:
-//           """Áo Polo Nam Nike không chỉ đơn thuần là một chiếc áo, mà là một biểu tượng của phong cách và sự thoải mái. Chất liệu bông mềm mại tạo cảm giác thoải mái và êm ái, đồng thời giữ cho bạn luôn tự tin trong mọi hoàn cảnh.""",
-//       brand: BrandModel(
-//         id: '1',
-//         name: 'Nike',
-//         image: TImages.nikeLogo,
-//         productsCount: 46,
-//         isFeatured: true,
-//       ),
-//       images: [
-//         TImages.polo1,
-//         TImages.polo2,
-//       ],
-//       salePrice: 680000,
-//       sku: 'ABR425734',
-//       categoryId: '8',
-//       productType: 'ProductType.single',
-//     ),
-//     //product 4
-//     ProductModel(
-//       id: '4',
-//       title: 'Áo Thun Nam Nike Sportwear - Đen',
-//       stock: 26,
-//       price: 350000,
-//       thumbnail: TImages.aoThun,
-//       isFeatured: true,
-//       description:
-//           """Kỷ niệm Air Max day, Nike mang đến chiếc Áo Thun Nam Nike Sportwear đậm chất cổ điển này. Với chất liệu cotton nhẹ, mềm mại mang lại cảm giác thoải mái trọn ngày dài. Thiết kế vừa vặn, phù hợp cho các hoạt động luyện tập và thể thao hằng ngày.""",
-//       brand: BrandModel(
-//         id: '1',
-//         name: 'Nike',
-//         image: TImages.nikeLogo,
-//         productsCount: 34,
-//         isFeatured: true,
-//       ),
-//       images: [
-//         TImages.aoThun1,
-//         TImages.aoThun2,
-//       ],
-//       salePrice: 280000,
-//       sku: 'ABR42556734',
-//       categoryId: '9',
-//       productType: 'ProductType.single',
-//     ),
-//     //product 5
-//     ProductModel(
-//       id: '5',
-//       title: 'Giày Sneaker Nam Nike Air Max 1 - Trắng',
-//       stock: 216,
-//       price: 3500000,
-//       thumbnail: TImages.giay,
-//       isFeatured: true,
-//       description:
-//           """Nike Air Max 1 - cái tên tiên phong trong dòng giày Air Max huyền thoại, giờ đây có mặt để nâng tầm phong cách của bạn. Được ra mắt lần đầu tiên vào năm 1987, Air Max 1 không chỉ là một đôi giày thể thao, mà còn là biểu tượng của sự thoải mái và thời trang đường phố.
-// Với thiết kế lấy cảm hứng từ đường phố, phần thân giày được làm từ chất liệu cao cấp, kết hợp các lớp phủ tổng hợp và lưới thoáng khí, tạo sự ôm vừa vặn, thoải mái cho bàn chân. Điểm nhấn nổi bật là bộ đệm khí Air Max nhìn thấy được ở gót giày, mang đến khả năng giảm chấn tuyệt vời, giúp đôi chân bạn luôn cảm thấy thoải mái suốt cả ngày dài.""",
-//       brand: BrandModel(
-//         id: '1',
-//         name: 'Nike',
-//         image: TImages.nikeLogo,
-//         productsCount: 314,
-//         isFeatured: true,
-//       ),
-//       images: [
-//         TImages.giay1,
-//         TImages.giay2,
-//       ],
-//       salePrice: 2800000,
-//       sku: 'ABR556734',
-//       categoryId: '10',
-//       productType: 'ProductType.single',
-//     ),
-    //product 6
-//     ProductModel(
-//       id: '6',
-//       title:
-//           """Giày Thể Thao Nam MWC 5704 - Giày Thể Thao Nam Cổ Thấp, Giày Dáng Sneaker Năng Động, Trẻ Trung, Thời Trang.
-// """,
-//       stock: 216,
-//       price: 350000,
-//       thumbnail: TImages.giayTtMvc,
-//       isFeatured: true,
-//       description:
-//           """Giày được thiết kế dáng sneaker buộc dây năng động, mặt giày in nhiệt chữ HI cùng sắc màu trẻ trung, giày được sử dụng chất liệu da tổng hợp phối vải lưới thể thao cao cấp nên rất êm mềm, có độ co giản và bền bỉ cao.
+    //
+    ProductModel(
+      id: '18',
+      title: 'THẮT LƯNG DA KIỂU CỔ ĐIỂN',
+      stock: 46,
+      price: 180000,
+      thumbnail: TImages.thatLungZara,
+      isFeatured: true,
+      description:
+          """Thắt lưng da. Có đai luồn dây bằng da và khóa cài bằng kim loại.
 
-// Giày đế cao su dẻo êm mềm, xẻ rãnh chống trơn trượt dễ đi, dễ phối hợp nhiều phong cách style khác nhau tạo nên vẻ đẹp nam tính mạnh mẽ, năng động và trẻ trung cho phái nam.
-
-// Giày thoáng khí cả mặt trong lẫn mặt ngoài khiến người mang luôn cảm thấy dễ chịu, tự tin khi mang đi ra ngoài, dạo phố hay các hoạt động dã ngoại ngoài trời cùng bạn bè,... trong suốt thời gian dài.""",
-//       brand: BrandModel(
-//         id: '3',
-//         name: 'MVC',
-//         image: TImages.mvcLogo,
-//         productsCount: 324,
-//         isFeatured: true,
-//       ),
-//       images: [
-//         TImages.giayTtMvc1,
-//         TImages.giayTtMvc2,
-//       ],
-//       salePrice: 280000,
-//       sku: 'ABR556734',
-//       categoryId: '10',
-//       productType: 'ProductType.single',
-//     ),
-//     //product 7
-//     ProductModel(
-//       id: '7',
-//       title:
-//           """Giày sandal nam MWC NASD- 7080 Sandal Nam Quai Ngang Phối Lót Dán Thời Trang Kiểu Dáng Streetwear Đế Mềm Mại
-// """,
-//       stock: 26,
-//       price: 250000,
-//       thumbnail: TImages.sandalMVC,
-//       isFeatured: true,
-//       description:
-//           """Được thiết kế quai ngang chéo thoáng khí, có khóa lót dán dễ dàng tùy chỉnh, giày được làm bằng chất liệu vải dù cao cấp, êm nhẹ,  bền bỉ.
-
-// Với thiết kế dành riêng cho nam giới với kiểu dáng đơn giản pha chút hiện đại, tạo cho người mang cảm giác thoải mái, nhẹ nhàng nhưng vẫn rất thời trang.
-
-// Sandal sử dụng các gam màu thanh lịch, đế cao su êm mềm,nhẹ thích hợp phối với nhiều trang phục khác nhau như sơ vin, jeans, sooc,..đều rất hợp và thời trang tạo thêm vẻ đẹp thanh lịch, năng động và rất nam tính cho các chàng.""",
-//       brand: BrandModel(
-//         id: '3',
-//         name: 'MVC',
-//         image: TImages.mvcLogo,
-//         productsCount: 24,
-//         isFeatured: true,
-//       ),
-//       images: [
-//         TImages.sandalMVC1,
-//       ],
-//       salePrice: 200000,
-//       sku: 'ABR55645734',
-//       categoryId: '11',
-//       productType: 'ProductType.single',
-//     ),
-//     //product 8
-//     ProductModel(
-//       id: '8',
-//       title: """Vớ nam nữ MWC - AT60""",
-//       stock: 26,
-//       price: 25000,
-//       thumbnail: TImages.voMVC,
-//       isFeatured: true,
-//       description: """""",
-//       brand: BrandModel(
-//         id: '3',
-//         name: 'MVC',
-//         image: TImages.mvcLogo,
-//         productsCount: 24,
-//         isFeatured: true,
-//       ),
-//       images: [
-//         TImages.voMVC,
-//         TImages.voMVC,
-//         TImages.voMVC,
-//       ],
-//       salePrice: 20000,
-//       sku: 'ABR55645ew734',
-//       categoryId: '15',
-//       productType: 'ProductType.single',
-//     ),
+Chiều rộng: 3,5 cm. """,
+      brand: BrandModel(
+        id: '5',
+        name: 'Zara',
+        image: TImages.zaraLogo,
+        productsCount: 46,
+        isFeatured: true,
+      ),
+      images: [
+        TImages.thatLungZara_1,
+        TImages.thatLungZara_2,
+      ],
+      salePrice: 135000,
+      sku: 'ABR4257334',
+      categoryId: '14',
+      productType: 'ProductType.single',
+    ),
   ];
+
   //list all categories
   static final List<CategoryModel> categories = [
     CategoryModel(

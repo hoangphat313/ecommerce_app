@@ -10,6 +10,7 @@ import 'package:e_commerce/features/personalization/screens/address/address.dart
 import 'package:e_commerce/features/personalization/screens/instruction/instruction_screen.dart';
 import 'package:e_commerce/features/personalization/screens/policy/policy_screen.dart';
 import 'package:e_commerce/features/personalization/screens/profile/profile.dart';
+import 'package:e_commerce/features/personalization/screens/upload/upload_general_screen.dart';
 import 'package:e_commerce/features/shop/screens/cart/cart.dart';
 import 'package:e_commerce/features/shop/screens/order/order.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
@@ -78,16 +79,11 @@ class SettingsScreen extends StatelessWidget {
                     onTap: () => Get.to(() => const OrderScreen()),
                   ),
 
-                  const TSettingMenuTile(
-                      icon: Iconsax.discount_shape,
-                      title: 'Mã giảm giá',
-                      subtitle: 'Xem danh sách mã giảm giá'),
-                  TSettingMenuTile(
-                    icon: Iconsax.video,
-                    title: 'Hướng dẫn sử dụng',
-                    subtitle: 'Xem video hướng dẫn sử dụng ứng dụng',
-                    onTap: () => Get.to(() => const InstructionScreen()),
-                  ),
+                  // const TSettingMenuTile(
+                  //     icon: Iconsax.discount_shape,
+                  //     title: 'Mã giảm giá',
+                  //     subtitle: 'Xem danh sách mã giảm giá'),
+
                   // TSettingMenuTile(
                   //   icon: Iconsax.personalcard,
                   //   title: 'Xóa tài khoản',
@@ -95,7 +91,6 @@ class SettingsScreen extends StatelessWidget {
                   //   onTap: () =>
                   //       userController.deleteAccountWarningPopup(context),
                   // ),
-
                   const SizedBox(height: TSizes.spaceBtwSections / 2),
                   // App setting
                   const TSectionHeading(
@@ -113,6 +108,12 @@ class SettingsScreen extends StatelessWidget {
                           },
                         ),
                       )),
+                  TSettingMenuTile(
+                    icon: Iconsax.video,
+                    title: 'Hướng dẫn sử dụng',
+                    subtitle: 'Xem video hướng dẫn sử dụng ứng dụng',
+                    onTap: () => Get.to(() => const InstructionScreen()),
+                  ),
                   // TSettingMenuTile(
                   //   icon: Iconsax.document_upload,
                   //   title: 'Upload dữ liệu',

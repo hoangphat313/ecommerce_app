@@ -43,11 +43,11 @@ class ProductDetailScreen extends StatelessWidget {
                   if (product.productType == ProductType.variable.toString())
                     const SizedBox(height: TSizes.spaceBtwSections),
                   //Checkout button
-                  SizedBox(
-                      width: double.infinity,
-                      child: ElevatedButton(
-                          onPressed: () {}, child: const Text('Thanh toán'))),
-                  const SizedBox(height: TSizes.spaceBtwSections),
+                  // SizedBox(
+                  //     width: double.infinity,
+                  //     child: ElevatedButton(
+                  //         onPressed: () {}, child: const Text('Thanh toán'))),
+                  // const SizedBox(height: TSizes.spaceBtwSections),
                   //Description
                   const TSectionHeading(
                       title: 'Mô tả', showActionButton: false),

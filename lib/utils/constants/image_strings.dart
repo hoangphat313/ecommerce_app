@@ -132,4 +132,43 @@ class TImages {
   static const String sandalMVC = "assets/images/products/mvc/sandal.jpg";
   static const String sandalMVC1 = "assets/images/products/mvc/sandal1.jpg";
   static const String voMVC = "assets/images/products/mvc/vo.jpg";
+  //Adidas
+  static const String quanDaiAdidas =
+      "assets/images/products/adidas/quandai.png";
+  static const String quanDaiAdidas_1 =
+      "assets/images/products/adidas/quandai.png";
+  static const String quanDaiAdidas_2 =
+      "assets/images/products/adidas/quandai.png";
+  static const String quanNganAdidas =
+      "assets/images/products/adidas/quanngan.png";
+  static const String quanNganAdidas_1 =
+      "assets/images/products/adidas/quanngan_1.png";
+  static const String quanNganAdidas_2 =
+      "assets/images/products/adidas/quanngan_2.png";
+  static const String poloAdidas = "assets/images/products/adidas/polo.png";
+  static const String poloAdidas_1 = "assets/images/products/adidas/polo_1.png";
+  static const String poloAdidas_2 = "assets/images/products/adidas/polo_2.png";
+  static const String teeAdidas = "assets/images/products/adidas/tee.png";
+  static const String teeAdidas_1 = "assets/images/products/adidas/tee_1.png";
+  static const String teeAdidas_2 = "assets/images/products/adidas/tee_2.png";
+  static const String giayAdidas = "assets/images/products/adidas/giay.png";
+  static const String giayAdidas_1 = "assets/images/products/adidas/giay_1.png";
+  static const String giayAdidas_2 = "assets/images/products/adidas/giay_2.png";
+  //puma
+  static const String thatLungPuma = "assets/images/products/puma/thatlung.jpg";
+  static const String teePuma = "assets/images/products/puma/tee.png";
+  static const String teePuma_1 = "assets/images/products/puma/tee_1.png";
+  static const String teePuma_2 = "assets/images/products/puma/tee_2.png";
+  static const String quanPuma = "assets/images/products/puma/quan.png";
+  static const String quanPuma_1 = "assets/images/products/puma/quan_1.png";
+  static const String quanPuma_2 = "assets/images/products/puma/quan_2.png";
+  //zara
+  static const String teeZara = "assets/images/products/zara/tee.jpg";
+  static const String teeZara_1 = "assets/images/products/zara/tee_1.jpg";
+  static const String teeZara_2 = "assets/images/products/zara/tee_2.jpg";
+  static const String thatLungZara = "assets/images/products/zara/thatlung.jpg";
+  static const String thatLungZara_1 =
+      "assets/images/products/zara/thatlung_1.jpg";
+  static const String thatLungZara_2 =
+      "assets/images/products/zara/thatlung_2.jpg";
 }

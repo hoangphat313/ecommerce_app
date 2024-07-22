@@ -1,6 +1,5 @@
 import 'package:e_commerce/common/widgets/appbar/appbar.dart';
 import 'package:e_commerce/common/widgets/custom_shapes/containers/rounded_container.dart';
-import 'package:e_commerce/common/widgets/products/cart/coupon_widget.dart';
 import 'package:e_commerce/features/personalization/controllers/address_controller.dart';
 import 'package:e_commerce/features/shop/controllers/product/cart_controller.dart';
 import 'package:e_commerce/features/shop/controllers/product/order_controller.dart';
