@@ -5,12 +5,10 @@ import 'package:e_commerce/common/widgets/list_tiles/user_profile_tile.dart';
 import 'package:e_commerce/common/widgets/texts/section_heading.dart';
 import 'package:e_commerce/data/repositories/authentication/authentication_repository.dart';
 import 'package:e_commerce/features/personalization/controllers/theme_controller.dart';
-import 'package:e_commerce/features/personalization/controllers/user_controller.dart';
 import 'package:e_commerce/features/personalization/screens/address/address.dart';
 import 'package:e_commerce/features/personalization/screens/instruction/instruction_screen.dart';
 import 'package:e_commerce/features/personalization/screens/policy/policy_screen.dart';
 import 'package:e_commerce/features/personalization/screens/profile/profile.dart';
-import 'package:e_commerce/features/personalization/screens/upload/upload_general_screen.dart';
 import 'package:e_commerce/features/shop/screens/cart/cart.dart';
 import 'package:e_commerce/features/shop/screens/order/order.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
@@ -24,7 +22,6 @@ class SettingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final userController = UserController.instance;
     final ThemeController themeController = Get.put(ThemeController());
     return Scaffold(
       body: SingleChildScrollView(

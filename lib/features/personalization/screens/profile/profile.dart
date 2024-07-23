@@ -73,7 +73,14 @@ class ProfileScreen extends StatelessWidget {
               TProfileMenu(
                   title: 'Username',
                   value: controller.user.value.username,
-                  onPressed: () {}),
+                  icon: Iconsax.copy,
+                  onPressed: () {
+                    Clipboard.setData(
+                        ClipboardData(text: controller.user.value.username));
+                    TLoaders.successSnackBar(
+                        title: 'Chúc mừng',
+                        message: 'Copy thành công Username');
+                  }),
 
               const SizedBox(height: TSizes.spaceBtwItems),
               const Divider(),
